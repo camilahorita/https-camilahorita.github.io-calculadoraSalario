@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f5f7; 
+}
+
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  border: 1px solid #e0e0e0; 
+}
+
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgb(6, 44, 53);
+}
+
+#days-week-title {
+  margin-top: 5px;
+}
+
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#purchase-value {
+  margin-bottom: 5px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.radio-group label {
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+}
+
+.results {
+  background-color: #f0f0f0;
+  color: rgb(71, 71, 71);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: left;
+  border: 1px solid #e0e0e0; 
+}
+
+#hourly-wage, #hours-needed, #days-needed {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(6, 44, 53); 
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+}

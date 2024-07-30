@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas de Trabalho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Horas</h2>
+        <input type="number" id="hours-input" placeholder="Digite as horas">
+        <div class="radio-group">
+            <input type="radio" id="dia" name="hours-type" value="dia" checked>
+            <label for="dia">Dia</label>
+            <input type="radio" id="semana" name="hours-type" value="semana">
+            <label for="semana">Semana</label>
+            <input type="radio" id="mes" name="hours-type" value="mes">
+            <label for="mes">Mês</label>
+        </div>
+
+        <h2 id="days-week-title">Dias trabalhados por semana</h2>
+        <input type="number" id="days-per-week-input" placeholder="Digite os dias por semana">
+
+        <h2>Salário</h2>
+        <input type="number" id="salary-input" placeholder="Digite o salário">
+        <div class="radio-group">
+            <input type="radio" id="dia-salary" name="salary-type" value="dia" checked>
+            <label for="dia-salary">Dia</label>
+            <input type="radio" id="semana-salary" name="salary-type" value="semana">
+            <label for="semana-salary">Semana</label>
+            <input type="radio" id="mes-salary" name="salary-type" value="mes">
+            <label for="mes-salary">Mês</label>
+        </div>
+
+        <h2>Valor da compra</h2>
+        <input type="number" id="purchase-value" placeholder="Digite o valor da compra">
+
+        <div class="results">
+            <p>Valor da hora de trabalho</p>
+            <div id="hourly-wage">0 R$/h</div>
+
+            <p>Horas necessárias para comprar</p>
+            <div id="hours-needed">0 h 0 min</div>
+
+            <p>Dias trabalhados necessários para comprar</p>
+            <div id="days-needed">0 dias</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
